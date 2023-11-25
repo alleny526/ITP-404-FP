@@ -9,7 +9,6 @@ import "react-toastify/dist/ReactToastify.css";
 
 export default function Index() {
   const animes = useLoaderData();
-  console.log(animes);
 
   useEffect(() => {
     document.title = `Daily Anime | MyAnime`;
